@@ -9,23 +9,30 @@ html, body {
     color: var(--red);
 }
 
-#navbar {
-    --nav-red: #ff6f19;
+h1, p {
+    color: var(--red);
 }
 
 #navbar a {
-    color: var(--nav-red);
+    color: var(--red);
 }
 
 .item {
-    --item-yellow: #ffdd5d;
-}
-
-.item {
-    background: var(--item-yellow);
+    background: var(--yellow);
+    color: var(--red);
 }
 
 button {
     background: var(--red);
-    color: var(--item-yellow);
+    color: var(--yellow);
 }
+
+.featured {
+     --yellow: #ffe55b;
+    --red: #ff5564;   
+}
+
+/*
+    --yellow: #ffe55b;
+    --red: #ff5564;
+*/
