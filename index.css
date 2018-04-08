@@ -9,16 +9,23 @@ html, body {
     color: var(--red);
 }
 
+#navbar {
+    --nav-red: #ff6f19;
+}
+
 #navbar a {
-    color: var(--red);
+    color: var(--nav-red);
 }
 
 .item {
-    --red: #ff8e69;
-    background: var(--yellow);
+    --item-yellow: #ffdd5d;
+}
+
+.item {
+    background: var(--item-yellow);
 }
 
 button {
     background: var(--red);
-    color: var(--yellow);
+    color: var(--item-yellow);
 }
