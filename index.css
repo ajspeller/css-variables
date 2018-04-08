@@ -14,6 +14,7 @@ html, body {
 }
 
 .item {
+    --red: #ff8e69;
     background: var(--yellow);
 }
 
