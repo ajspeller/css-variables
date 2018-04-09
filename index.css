@@ -3,6 +3,7 @@
     --red: #ff6f69;
     --beige: #ffeead;
     --yellow: #ffcc5c;
+    --main-color: var(--red);
 }
 
 .grid {
@@ -20,8 +21,12 @@ h1, p {
     color: var(--red);
 }
 
+#navbar {
+  --main-color: blue;
+}
+
 #navbar a {
-    color: var(--red);
+    color: var(--main-color);
 }
 
 .grid {
@@ -33,6 +38,7 @@ h1, p {
 }
 
 .item {
+    --red: red;
     background: var(--yellow);
 }
 
