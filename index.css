@@ -1,8 +1,15 @@
+/* Variables */ 
 :root {
     --red: #ff6f69;
     --beige: #ffeead;
     --yellow: #ffcc5c;
 }
+
+.grid {
+    --columns: 200px 200px;
+}
+
+/* styles */
 
 html, body {
     background: var(--beige);
@@ -17,9 +24,16 @@ h1, p {
     color: var(--red);
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: var(--columns);
+    grid-auto-rows: 140px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
 .item {
     background: var(--yellow);
-    color: var(--red);
 }
 
 button {
@@ -27,12 +41,11 @@ button {
     color: var(--yellow);
 }
 
-.featured {
-     --yellow: #ffe55b;
-    --red: #ff5564;   
+@media all and (max-width: 450px) {
+    .grid {
+        --columns: 200px;
+    }
+    :root {
+        --beige: #9acf09;
+    }
 }
-
-/*
-    --yellow: #ffe55b;
-    --red: #ff5564;
-*/
